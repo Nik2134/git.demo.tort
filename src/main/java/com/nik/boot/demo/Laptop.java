@@ -18,7 +18,9 @@ public class Laptop {
 	}
 
 	public String getBrand() {
+		System.out.println("inside brand");
 		return brand;
+		
 	}
 
 	public void setBrand(String brand) {
